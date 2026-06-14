@@ -510,9 +510,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 191196338963710123, guid: 3720fcd6d75c9d9418d40cc00f27de47, type: 3}
+      propertyPath: m_Mass
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 191196338963710123, guid: 3720fcd6d75c9d9418d40cc00f27de47, type: 3}
+      propertyPath: m_GravityScale
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 191196338963710123, guid: 3720fcd6d75c9d9418d40cc00f27de47, type: 3}
+      propertyPath: m_LinearDamping
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2795673968905224637, guid: 3720fcd6d75c9d9418d40cc00f27de47, type: 3}
       propertyPath: m_Name
-      value: Idle (32x32)_0
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 2795673968905224637, guid: 3720fcd6d75c9d9418d40cc00f27de47, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 7543485947271047815, guid: 3720fcd6d75c9d9418d40cc00f27de47, type: 3}
       propertyPath: m_LocalScale.x
@@ -580,7 +596,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 463040717510985427, guid: dc684db10705b414d964111ac845fd03, type: 3}
       propertyPath: m_Name
-      value: Terrain Sliced (16x16)_0
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 463040717510985427, guid: dc684db10705b414d964111ac845fd03, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 3412725884189404966, guid: dc684db10705b414d964111ac845fd03, type: 3}
       propertyPath: m_LocalScale.x
