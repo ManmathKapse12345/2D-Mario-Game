@@ -4,7 +4,7 @@ public class Camera : MonoBehaviour
 {
     public GameObject player;
     private float xMin=0f;
-    private float xMax=20f;
+    private float xMax=50f;
     private float xPos;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

@@ -1,5 +1,6 @@
 // using System.Numerics;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
 
 public class Player : MonoBehaviour
@@ -11,6 +12,8 @@ public class Player : MonoBehaviour
     private float force = 100f;
     // private float force = 150f;
     private bool isGround = true;
+
+    public int health =0 ;
     private Animator animator;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -22,9 +25,14 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (transform.position.y < -1)
+        {
+            Debug.Log("GameOver!");
+            SceneManager.LoadScene("SampleScene");
+        }
         transform.rotation=Quaternion.Euler(0,0,0);
         horizontalInput=Input.GetAxis("Horizontal");
-        if (horizontalInput != 0)
+        if (horizontalInput != 0 && isGround)
         {
             animator.SetBool("isRunning",true);
         }
@@ -39,6 +47,8 @@ public class Player : MonoBehaviour
         transform.Translate(Vector3.right*Time.deltaTime*translationSpeed*horizontalInput);
         if (Input.GetKey(KeyCode.Space) && isGround)
         {
+            // animator.SetBool("isRunning",false);
+            // animator.SetBool("isJumping",true);
             playerRigidBody2D.AddForce(Vector3.up*force,ForceMode2D.Impulse);
             isGround=false;
         }
@@ -55,9 +65,25 @@ public class Player : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
+        if (collision.gameObject.CompareTag("Apple"))
+        {
+            health=health+8;
+            Destroy(collision.gameObject);
+        }
+        if (collision.gameObject.CompareTag("Banana"))
+        {
+            health=health+10;
+            Destroy(collision.gameObject);
+        }
         if (collision.gameObject.CompareTag("Ground"))
         {
             isGround = true;
+            // animator.SetBool("isJumping",false);
+        }
+        if (collision.gameObject.CompareTag("EnemyBlock"))
+        {
+            Debug.Log("Game Over!");
+            SceneManager.LoadScene("SampleScene");
         }
     }
 }
