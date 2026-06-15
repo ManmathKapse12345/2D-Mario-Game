@@ -1,5 +1,6 @@
 // using System.Numerics;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class Player : MonoBehaviour
 {
@@ -10,16 +11,27 @@ public class Player : MonoBehaviour
     private float force = 100f;
     // private float force = 150f;
     private bool isGround = true;
+    private Animator animator;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        animator=GetComponent<Animator>();
         playerRigidBody2D=GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        transform.rotation=Quaternion.Euler(0,0,0);
         horizontalInput=Input.GetAxis("Horizontal");
+        if (horizontalInput != 0)
+        {
+            animator.SetBool("isRunning",true);
+        }
+        else
+        {
+            animator.SetBool("isRunning",false);
+        }
         if((horizontalInput>0 && isRight) || (horizontalInput<0 && !isRight))
         {
             FlipPlayer();
