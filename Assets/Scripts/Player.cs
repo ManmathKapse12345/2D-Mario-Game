@@ -12,9 +12,12 @@ public class Player : MonoBehaviour
     private float force = 100f;
     // private float force = 150f;
     private bool isGround = true;
+    private float platformForce=200f;
 
     public int health =0 ;
     private Animator animator;
+    public bool isOnPlatform=false;
+    public bool isGameOver = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -32,7 +35,7 @@ public class Player : MonoBehaviour
         }
         transform.rotation=Quaternion.Euler(0,0,0);
         horizontalInput=Input.GetAxis("Horizontal");
-        if (horizontalInput != 0 && isGround)
+        if (horizontalInput != 0 && isGround && !isGameOver)
         {
             animator.SetBool("isRunning",true);
         }
@@ -40,15 +43,13 @@ public class Player : MonoBehaviour
         {
             animator.SetBool("isRunning",false);
         }
-        if((horizontalInput>0 && isRight) || (horizontalInput<0 && !isRight))
+        if((horizontalInput>0 && isRight && !isGameOver) || (horizontalInput<0 && !isRight && !isGameOver))
         {
             FlipPlayer();
         }
         transform.Translate(Vector3.right*Time.deltaTime*translationSpeed*horizontalInput);
-        if (Input.GetKey(KeyCode.Space) && isGround)
+        if (Input.GetKey(KeyCode.Space) && isGround && !isGameOver)
         {
-            // animator.SetBool("isRunning",false);
-            // animator.SetBool("isJumping",true);
             playerRigidBody2D.AddForce(Vector3.up*force,ForceMode2D.Impulse);
             isGround=false;
         }
@@ -65,6 +66,20 @@ public class Player : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
+        if (collision.gameObject.CompareTag("JumpingPlatform"))
+        {
+            playerRigidBody2D.AddForce(Vector3.up*platformForce,ForceMode2D.Impulse);
+        }
+        if (collision.gameObject.CompareTag("Finish"))
+        {
+            isGameOver=true;
+        }
+        if (collision.gameObject.CompareTag("Platform"))
+        {
+            isGround=true;
+            Debug.Log("The player is on Platform");
+            isOnPlatform=true;
+        }
         if (collision.gameObject.CompareTag("Apple"))
         {
             health=health+8;
@@ -75,10 +90,24 @@ public class Player : MonoBehaviour
             health=health+10;
             Destroy(collision.gameObject);
         }
+        if (collision.gameObject.CompareTag("Cherry"))
+        {
+            health=health+12;
+            Destroy(collision.gameObject);
+        }
+        if (collision.gameObject.CompareTag("Kiwi"))
+        {
+            health=health+14;
+            Destroy(collision.gameObject);
+        }
+        if (collision.gameObject.CompareTag("Melon"))
+        {
+            health=health+16;
+            Destroy(collision.gameObject);
+        }
         if (collision.gameObject.CompareTag("Ground"))
         {
             isGround = true;
-            // animator.SetBool("isJumping",false);
         }
         if (collision.gameObject.CompareTag("EnemyBlock"))
         {

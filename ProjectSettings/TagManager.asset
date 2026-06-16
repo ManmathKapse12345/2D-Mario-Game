@@ -9,6 +9,7 @@ TagManager:
   - Fruits
   - Apple
   - Banana
+  - Platform
   layers:
   - Default
   - TransparentFX
