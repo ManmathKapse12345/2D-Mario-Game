@@ -10,6 +10,10 @@ TagManager:
   - Apple
   - Banana
   - Platform
+  - Cherry
+  - Kiwi
+  - Melon
+  - JumpingPlatform
   layers:
   - Default
   - TransparentFX
