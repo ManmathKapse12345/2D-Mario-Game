@@ -1,4 +1,5 @@
 // using System.Numerics;
+using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
@@ -12,7 +13,7 @@ public class Player : MonoBehaviour
     private float force = 100f;
     // private float force = 150f;
     private bool isGround = true;
-    private float platformForce=200f;
+    private float platformForce=180f;
 
     public int health =0 ;
     private Animator animator;
@@ -47,7 +48,10 @@ public class Player : MonoBehaviour
         {
             FlipPlayer();
         }
-        transform.Translate(Vector3.right*Time.deltaTime*translationSpeed*horizontalInput);
+        if (!isGameOver)
+        {
+            transform.Translate(Vector3.right*Time.deltaTime*translationSpeed*horizontalInput);
+        }
         if (Input.GetKey(KeyCode.Space) && isGround && !isGameOver)
         {
             playerRigidBody2D.AddForce(Vector3.up*force,ForceMode2D.Impulse);
@@ -79,6 +83,7 @@ public class Player : MonoBehaviour
             isGround=true;
             Debug.Log("The player is on Platform");
             isOnPlatform=true;
+            transform.SetParent(collision.transform);
         }
         if (collision.gameObject.CompareTag("Apple"))
         {
@@ -113,6 +118,26 @@ public class Player : MonoBehaviour
         {
             Debug.Log("Game Over!");
             SceneManager.LoadScene("Level2");
+        }
+        if (collision.gameObject.CompareTag("Monster"))
+        {
+            // playerRigidBody2D.constraints = RigidbodyConstraints2D.FreezePosition;
+            isGameOver=true;
+            // Animator animator = collision.gameObject.GetComponent<Animator>();
+            // AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
+            // if (stateInfo.IsName("SlimeAttack"))
+            // {
+            //     Debug.Log("Slime is attacking");
+            //     SceneManager.LoadScene("Level2");
+            // }
+        }
+    }
+
+    void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Platform"))
+        {
+            transform.SetParent(null);
         }
     }
 }

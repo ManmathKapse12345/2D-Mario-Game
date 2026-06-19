@@ -72,27 +72,27 @@ public class Enemy : MonoBehaviour
         transform.localScale = new Vector3(-localScaleEnemy.x,localScaleEnemy.y,localScaleEnemy.z);
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
-    {
-        isAttacking=true;
-        animator.SetBool("doAttack",true);
-    }
+    // void OnCollisionEnter2D(Collision2D collision)
+    // {
+    //     isAttacking=true;
+    //     animator.SetBool("doAttack",true);
+    // }
 
-    void OnCollisionExit2D(Collision2D collision)
-    {
-        isAttacking=false;
-        animator.SetBool("doAttack",false);
-    }
+    // void OnCollisionExit2D(Collision2D collision)
+    // {
+    //     isAttacking=false;
+    //     animator.SetBool("doAttack",false);
+    // }
 
-    void OnTriggerEnter2D(Collider2D collision)
-    {
-        isAttacking=true;
-        animator.SetBool("doAttack",true);
-    }
+    // void OnTriggerEnter2D(Collider2D collision)
+    // {
+    //     isAttacking=true;
+    //     animator.SetBool("doAttack",true);
+    // }
 
-    void OnTriggerExit2D(Collider2D collision)
-    {
-        isAttacking=false;
-        animator.SetBool("doAttack",false);
-    }
+    // void OnTriggerExit2D(Collider2D collision)
+    // {
+    //     isAttacking=false;
+    //     animator.SetBool("doAttack",false);
+    // }
 }

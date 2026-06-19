@@ -15,6 +15,7 @@ TagManager:
   - Melon
   - JumpingPlatform
   - Demon
+  - Monster
   layers:
   - Default
   - TransparentFX
