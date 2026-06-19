@@ -21,7 +21,8 @@ public class Camera : MonoBehaviour
         isOnPlatform = player.GetComponent<Player>().isOnPlatform;
         xPos=Mathf.Clamp(player.transform.position.x,xMin,xMax); 
         yPos = Mathf.Clamp(player.transform.position.y,yMin,yMax);
-        transform.position=new Vector3(xPos,gameObject.transform.position.y,gameObject.transform.position.z);
+        transform.position=new Vector3(xPos,yPos,gameObject.transform.position.z);
+        // transform.position=new Vector3(xPos,gameObject.transform.position.y,gameObject.transform.position.z);
         if (isOnPlatform)
         {
             Debug.Log("The player is on Platform");

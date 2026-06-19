@@ -14,6 +14,7 @@ TagManager:
   - Kiwi
   - Melon
   - JumpingPlatform
+  - Demon
   layers:
   - Default
   - TransparentFX

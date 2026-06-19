@@ -31,7 +31,7 @@ public class Player : MonoBehaviour
         if (transform.position.y < -1)
         {
             Debug.Log("GameOver!");
-            SceneManager.LoadScene("SampleScene");
+            SceneManager.LoadScene("Level2");
         }
         transform.rotation=Quaternion.Euler(0,0,0);
         horizontalInput=Input.GetAxis("Horizontal");
@@ -109,10 +109,10 @@ public class Player : MonoBehaviour
         {
             isGround = true;
         }
-        if (collision.gameObject.CompareTag("EnemyBlock"))
+        if (collision.gameObject.CompareTag("EnemyBlock") || collision.gameObject.CompareTag("Demon"))
         {
             Debug.Log("Game Over!");
-            SceneManager.LoadScene("SampleScene");
+            SceneManager.LoadScene("Level2");
         }
     }
 }
