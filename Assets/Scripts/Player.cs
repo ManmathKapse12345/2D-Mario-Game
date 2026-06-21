@@ -29,10 +29,10 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.y < -1)
+        if (transform.position.y < -15f)
         {
             Debug.Log("GameOver!");
-            SceneManager.LoadScene("Level2");
+            SceneManager.LoadScene("Level3");
         }
         transform.rotation=Quaternion.Euler(0,0,0);
         horizontalInput=Input.GetAxis("Horizontal");
@@ -117,7 +117,7 @@ public class Player : MonoBehaviour
         if (collision.gameObject.CompareTag("EnemyBlock") || collision.gameObject.CompareTag("Demon"))
         {
             Debug.Log("Game Over!");
-            SceneManager.LoadScene("Level2");
+            SceneManager.LoadScene("Level3");
         }
         if (collision.gameObject.CompareTag("Monster"))
         {

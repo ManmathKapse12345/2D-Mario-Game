@@ -1,11 +1,12 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Camera : MonoBehaviour
 {
     public GameObject player;
     private float xMin=0f;
     private float xMax=400f;
-    private float yMin=5.52f;
+    private float yMin;
     private float yMax=30f;
     private float xPos;
     private float yPos;
@@ -13,6 +14,15 @@ public class Camera : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        string sceneName = SceneManager.GetActiveScene().name;
+        if(sceneName == "Level1" || sceneName == "Level2")
+        {
+            yMin=5.52f;
+        }
+        if (sceneName == "Level3")
+        {
+            yMin=-15f;
+        }
     }
 
     // Update is called once per frame

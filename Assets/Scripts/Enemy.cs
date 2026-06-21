@@ -44,7 +44,10 @@ public class Enemy : MonoBehaviour
         {
             Debug.Log("Changing Direction");
             targetWallObject.x = (targetWallObject.x==rightWallObject.transform.position.x)?leftWallObject.transform.position.x:rightWallObject.transform.position.x;
-            FlipEnemy();
+            if (gameObject.CompareTag("EnemyBlock") || gameObject.CompareTag("Demon"))
+            {
+                FlipEnemy();
+            }
         }
         // if (gameObject.name == "BlinkSpikeBlock")
         // {
