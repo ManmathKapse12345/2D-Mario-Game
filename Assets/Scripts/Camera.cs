@@ -23,6 +23,11 @@ public class Camera : MonoBehaviour
         {
             yMin=-15f;
         }
+        if(sceneName == "Level4")
+        {
+            yMin=-25f;
+            xMin = -100f;
+        }
     }
 
     // Update is called once per frame

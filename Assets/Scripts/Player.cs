@@ -29,7 +29,7 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.y < -15f)
+        if (transform.position.y < -25f)
         {
             Debug.Log("GameOver!");
             SceneManager.LoadScene("Level3");
