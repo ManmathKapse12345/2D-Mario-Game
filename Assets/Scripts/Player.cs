@@ -13,7 +13,7 @@ public class Player : MonoBehaviour
     private float force = 100f;
     // private float force = 150f;
     private bool isGround = true;
-    private float platformForce=180f;
+    private float platformForce=200f;
 
     public int health =0 ;
     private Animator animator;
@@ -32,7 +32,7 @@ public class Player : MonoBehaviour
         if (transform.position.y < -25f)
         {
             Debug.Log("GameOver!");
-            SceneManager.LoadScene("Level3");
+            SceneManager.LoadScene("Level5");
         }
         transform.rotation=Quaternion.Euler(0,0,0);
         horizontalInput=Input.GetAxis("Horizontal");
@@ -117,7 +117,7 @@ public class Player : MonoBehaviour
         if (collision.gameObject.CompareTag("EnemyBlock") || collision.gameObject.CompareTag("Demon"))
         {
             Debug.Log("Game Over!");
-            SceneManager.LoadScene("Level3");
+            SceneManager.LoadScene("Level5");
         }
         if (collision.gameObject.CompareTag("Monster"))
         {

@@ -27,6 +27,12 @@ public class Camera : MonoBehaviour
         {
             yMin=-25f;
             xMin = -100f;
+            xMax=374f;
+        }
+        if(sceneName == "Level5")
+        {
+            xMax=410f;
+            yMin=-25f;
         }
     }
 
