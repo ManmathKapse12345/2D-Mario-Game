@@ -62,6 +62,7 @@ public class MonsterScript : MonoBehaviour
         }
         Debug.Log(stateInfo.length);
         yield return new WaitForSeconds(stateInfo.length+0.6f);
-        SceneManager.LoadScene("Level5");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        // SceneManager.LoadScene("Level5");
     }
 }

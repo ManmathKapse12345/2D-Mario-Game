@@ -9,18 +9,12 @@ public class Enemy : MonoBehaviour
     public GameObject leftWallObject;
     public GameObject rightWallObject;
     private Vector2 targetWallObject;
-
-    private Animator animator;
-    private Vector2 leftPosition = new Vector2(28f,1f);
-    private Vector2 rightPosition = new Vector2(35f,1f);
-    private Vector2 targetPos;
     private bool isAttacking=false;
     // private Vector3 leftPoint = new Vector3(7.56f,3.73f,0);
     // private Vector3 rightPoint= new Vector3(14.48f,2.94f,0);
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        animator = GetComponent<Animator>();
         targetWallObject = new Vector2(leftWallObject.transform.position.x,transform.position.y); 
         // targetWallObject=rightWallObject;
         // if (gameObject.name == "BlinkSpikeBlock")
