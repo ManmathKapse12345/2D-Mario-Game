@@ -10,11 +10,12 @@ public class MonsterScript : MonoBehaviour
     private Vector2 targetWallObject;
     private Animator animator;
     private bool isAttacking=false;
-    // private Player playerScript = 
+    private Player playerScript; 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        playerScript = GameObject.Find("Player").GetComponent<Player>();
         animator = GetComponent<Animator>();
         targetWallObject = new Vector2(rightWallObject.transform.position.x,transform.position.y); 
     }
@@ -22,7 +23,7 @@ public class MonsterScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!isAttacking)
+        if (!isAttacking && !playerScript.isPause)
         {
             transform.position = Vector2.MoveTowards(transform.position,targetWallObject,speed*Time.deltaTime);
         }
@@ -54,7 +55,6 @@ public class MonsterScript : MonoBehaviour
     private IEnumerator ReloadSceneAfterAttack()
     {
         AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
-        // animator.SetBool("doAttack",true);
         
         if (stateInfo.IsName("SlimeWalk"))
         {

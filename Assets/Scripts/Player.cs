@@ -20,8 +20,14 @@ public class Player : MonoBehaviour
     public bool isOnPlatform=false;
     public bool isGameOver = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public bool levelCompleted=false;
+    public bool isPause=false;
+
+    private int currentLevel;
     void Start()
     {
+        isPause=false;
+        currentLevel = int.Parse(SceneManager.GetActiveScene().name.Substring(5).Trim());
         animator=GetComponent<Animator>();
         playerRigidBody2D=GetComponent<Rigidbody2D>();
     }
@@ -36,7 +42,7 @@ public class Player : MonoBehaviour
         }
         transform.rotation=Quaternion.Euler(0,0,0);
         horizontalInput=Input.GetAxis("Horizontal");
-        if (horizontalInput != 0 && isGround && !isGameOver)
+        if (horizontalInput != 0 && isGround && !isGameOver && !isPause)
         {
             animator.SetBool("isRunning",true);
         }
@@ -44,20 +50,25 @@ public class Player : MonoBehaviour
         {
             animator.SetBool("isRunning",false);
         }
-        if((horizontalInput>0 && isRight && !isGameOver) || (horizontalInput<0 && !isRight && !isGameOver))
+        if((horizontalInput>0 && isRight && !isGameOver && !isPause) || (horizontalInput<0 && !isRight && !isGameOver && !isPause))
         {
             FlipPlayer();
         }
-        if (!isGameOver)
+        if (!isGameOver && !isPause)
         {
             transform.Translate(Vector3.right*Time.deltaTime*translationSpeed*horizontalInput);
         }
-        if (Input.GetKey(KeyCode.Space) && isGround && !isGameOver)
+        if (Input.GetKey(KeyCode.Space) && isGround && !isGameOver && !isPause)
         {
             playerRigidBody2D.AddForce(Vector3.up*force,ForceMode2D.Impulse);
             isGround=false;
         }
         
+    }
+
+    public void MakeGamePause()
+    {
+        isPause=!isPause;
     }
 
     void FlipPlayer()
@@ -76,7 +87,9 @@ public class Player : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("Finish"))
         {
+            levelCompleted=true;
             isGameOver=true;
+            SceneManager.LoadScene("Level"+(currentLevel+1));
         }
         if (collision.gameObject.CompareTag("Platform"))
         {
@@ -116,21 +129,16 @@ public class Player : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("EnemyBlock") || collision.gameObject.CompareTag("Demon"))
         {
+            if(transform.parent != null)
+            {
+                transform.SetParent(null);
+            }
             Debug.Log("Game Over!");
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-            // SceneManager.LoadScene("Level5");
         }
         if (collision.gameObject.CompareTag("Monster"))
         {
-            // playerRigidBody2D.constraints = RigidbodyConstraints2D.FreezePosition;
             isGameOver=true;
-            // Animator animator = collision.gameObject.GetComponent<Animator>();
-            // AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
-            // if (stateInfo.IsName("SlimeAttack"))
-            // {
-            //     Debug.Log("Slime is attacking");
-            //     SceneManager.LoadScene("Level2");
-            // }
         }
     }
 

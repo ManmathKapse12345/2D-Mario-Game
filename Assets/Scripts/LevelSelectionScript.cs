@@ -11,9 +11,6 @@ public class LevelSelectionScript : MonoBehaviour, IPointerEnterHandler, IPointe
     public Image image;
     public Color normalColor = Color.blue;
     public Color hoverColor = Color.red;
-    private string level;
-
-    private TMP_Text levelText;
 
     public void OnPointerEnter(PointerEventData eventData)
     {
@@ -28,15 +25,12 @@ public class LevelSelectionScript : MonoBehaviour, IPointerEnterHandler, IPointe
     void Start()
     {
         image = GetComponent<Image>();
-        // levelText=GetComponentInChildren<TMP_Text>();
-        // level = levelText.text.Replace(" ","");
     }
 
     // Update is called once per frame
 
     public void SelectLevel1()
     {
-        // Debug.Log(SceneManager.GetActiveScene().name);
         SceneManager.LoadScene("Level1");
     }
     public void SelectLevel2()
@@ -54,5 +48,10 @@ public class LevelSelectionScript : MonoBehaviour, IPointerEnterHandler, IPointe
     public void SelectLevel5()
     {
         SceneManager.LoadScene("Level5");
+    }
+
+    public void QuitLevel()
+    {
+        SceneManager.LoadScene("MenuScene");
     }
 }

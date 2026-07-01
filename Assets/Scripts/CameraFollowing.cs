@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Camera : MonoBehaviour
+public class CameraFollowing : MonoBehaviour
 {
     public GameObject player;
     private float xMin=0f;
@@ -17,10 +17,19 @@ public class Camera : MonoBehaviour
         string sceneName = SceneManager.GetActiveScene().name;
         if(sceneName == "Level1" || sceneName == "Level2")
         {
-            yMin=5.52f;
+            // yMin=10.7f;
+            yMin=5.7f;
+            yMax=60f;
+        }
+        if(sceneName == "Level2")
+        {
+            xMin=2.1f;
+            yMin=5f;
+            yMax=60f;
         }
         if (sceneName == "Level3")
         {
+            xMin=-2f;
             yMin=-15f;
         }
         if(sceneName == "Level4")
