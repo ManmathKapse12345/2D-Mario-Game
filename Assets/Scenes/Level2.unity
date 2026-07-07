@@ -198,6 +198,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3621914253399856726, guid: 4e2410a2c9b6ea84a918304eb1e622f1, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8455679373023807314, guid: 4e2410a2c9b6ea84a918304eb1e622f1, type: 3}
       propertyPath: m_Name
       value: Kiwi_0 (7)
@@ -220,6 +224,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2088203902}
     m_Modifications:
+    - target: {fileID: 794195888747811014, guid: c618519147eddd643af4369140e8019b, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6696236887796383802, guid: c618519147eddd643af4369140e8019b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -381.58
@@ -448,6 +456,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2088203902}
     m_Modifications:
+    - target: {fileID: 794195888747811014, guid: c618519147eddd643af4369140e8019b, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6696236887796383802, guid: c618519147eddd643af4369140e8019b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -290.61
@@ -735,6 +747,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Melon_0 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5646822875302202366, guid: 3b1f584d6ae4027418536e3e0d2d8e3e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6604323652222841139, guid: 3b1f584d6ae4027418536e3e0d2d8e3e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -326.47
@@ -793,6 +809,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2088203902}
     m_Modifications:
+    - target: {fileID: 794195888747811014, guid: c618519147eddd643af4369140e8019b, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6696236887796383802, guid: c618519147eddd643af4369140e8019b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -280.46
@@ -1134,6 +1154,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6349321596802701981, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9005686331412937464, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
       propertyPath: m_Name
       value: Cherries_0 (23)
@@ -1169,6 +1193,10 @@ PrefabInstance:
     - target: {fileID: 5529930824640783560, guid: 78880161ce20bd34491133b8e2682011, type: 3}
       propertyPath: m_Name
       value: Bananas_0 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6250977281583642859, guid: 78880161ce20bd34491133b8e2682011, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8269352882909934520, guid: 78880161ce20bd34491133b8e2682011, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1564,6 +1592,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpikeBallChain (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4086449555410127533, guid: fc4b94b691011d44281657afe063a58e, type: 3}
+      propertyPath: m_Radius
+      value: 0.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1626,6 +1658,10 @@ PrefabInstance:
     - target: {fileID: 1548809865982736094, guid: 4e2410a2c9b6ea84a918304eb1e622f1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3621914253399856726, guid: 4e2410a2c9b6ea84a918304eb1e622f1, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8455679373023807314, guid: 4e2410a2c9b6ea84a918304eb1e622f1, type: 3}
       propertyPath: m_Name
@@ -2067,6 +2103,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bananas_0 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 6250977281583642859, guid: 78880161ce20bd34491133b8e2682011, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8269352882909934520, guid: 78880161ce20bd34491133b8e2682011, type: 3}
       propertyPath: m_LocalPosition.x
       value: -99.79001
@@ -2445,6 +2485,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6349321596802701981, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9005686331412937464, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
       propertyPath: m_Name
       value: Cherries_0 (22)
@@ -2470,6 +2514,10 @@ PrefabInstance:
     - target: {fileID: 5529930824640783560, guid: 78880161ce20bd34491133b8e2682011, type: 3}
       propertyPath: m_Name
       value: Bananas_0 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6250977281583642859, guid: 78880161ce20bd34491133b8e2682011, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8269352882909934520, guid: 78880161ce20bd34491133b8e2682011, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2707,6 +2755,10 @@ PrefabInstance:
     - target: {fileID: 5177808882741627665, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6349321596802701981, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9005686331412937464, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
       propertyPath: m_Name
@@ -3015,6 +3067,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bananas_0 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6250977281583642859, guid: 78880161ce20bd34491133b8e2682011, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8269352882909934520, guid: 78880161ce20bd34491133b8e2682011, type: 3}
       propertyPath: m_LocalPosition.x
       value: -265.01
@@ -3107,6 +3163,10 @@ PrefabInstance:
     - target: {fileID: 1548809865982736094, guid: 4e2410a2c9b6ea84a918304eb1e622f1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3621914253399856726, guid: 4e2410a2c9b6ea84a918304eb1e622f1, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8455679373023807314, guid: 4e2410a2c9b6ea84a918304eb1e622f1, type: 3}
       propertyPath: m_Name
@@ -3352,7 +3412,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.001636818, y: 0.0019056424}
+  m_Offset: {x: -0.016362082, y: 0.0019056424}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -3362,7 +3422,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.45835117, y: 0.20854266}
+  m_Size: {x: 0.27031326, y: 0.20854266}
   m_EdgeRadius: 0
 --- !u!95 &255163048
 Animator:
@@ -3482,6 +3542,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2088203902}
     m_Modifications:
+    - target: {fileID: 794195888747811014, guid: c618519147eddd643af4369140e8019b, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6696236887796383802, guid: c618519147eddd643af4369140e8019b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -143.20999
@@ -3795,7 +3859,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.0012818128, y: 0.0036562942}
+  m_Offset: {x: 0.038596317, y: 0.003656298}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -3805,7 +3869,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.43531498, y: 0.22438738}
+  m_Size: {x: 0.2819382, y: 0.22438738}
   m_EdgeRadius: 0
 --- !u!95 &268933129
 Animator:
@@ -3904,6 +3968,10 @@ PrefabInstance:
     - target: {fileID: 5529930824640783560, guid: 78880161ce20bd34491133b8e2682011, type: 3}
       propertyPath: m_Name
       value: Bananas_0 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6250977281583642859, guid: 78880161ce20bd34491133b8e2682011, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8269352882909934520, guid: 78880161ce20bd34491133b8e2682011, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4038,6 +4106,10 @@ PrefabInstance:
     - target: {fileID: 1548809865982736094, guid: 4e2410a2c9b6ea84a918304eb1e622f1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3621914253399856726, guid: 4e2410a2c9b6ea84a918304eb1e622f1, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8455679373023807314, guid: 4e2410a2c9b6ea84a918304eb1e622f1, type: 3}
       propertyPath: m_Name
@@ -4179,7 +4251,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.030564714}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -4189,7 +4261,7 @@ BoxCollider2D:
     drawMode: 2
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.16, y: 0.16}
+  m_Size: {x: 4, y: 0.09887057}
   m_EdgeRadius: 0
 --- !u!1 &322112439
 GameObject:
@@ -4732,6 +4804,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bananas_0
       objectReference: {fileID: 0}
+    - target: {fileID: 6250977281583642859, guid: 78880161ce20bd34491133b8e2682011, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8269352882909934520, guid: 78880161ce20bd34491133b8e2682011, type: 3}
       propertyPath: m_LocalPosition.x
       value: -378.55582
@@ -5105,6 +5181,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6349321596802701981, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9005686331412937464, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
       propertyPath: m_Name
       value: Cherries_0 (10)
@@ -5130,6 +5210,10 @@ PrefabInstance:
     - target: {fileID: 3333739213498057118, guid: 3b1f584d6ae4027418536e3e0d2d8e3e, type: 3}
       propertyPath: m_Name
       value: Melon_0 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5646822875302202366, guid: 3b1f584d6ae4027418536e3e0d2d8e3e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6604323652222841139, guid: 3b1f584d6ae4027418536e3e0d2d8e3e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5326,7 +5410,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.0012818128, y: 0.0036562942}
+  m_Offset: {x: 0.029183261, y: 0.003656298}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -5336,7 +5420,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.43531498, y: 0.22438738}
+  m_Size: {x: 0.3087693, y: 0.22438738}
   m_EdgeRadius: 0
 --- !u!114 &452152434
 MonoBehaviour:
@@ -5404,6 +5488,10 @@ PrefabInstance:
     - target: {fileID: 5177808882741627665, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6349321596802701981, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9005686331412937464, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
       propertyPath: m_Name
@@ -5565,6 +5653,10 @@ PrefabInstance:
     - target: {fileID: 1548809865982736094, guid: 4e2410a2c9b6ea84a918304eb1e622f1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3621914253399856726, guid: 4e2410a2c9b6ea84a918304eb1e622f1, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8455679373023807314, guid: 4e2410a2c9b6ea84a918304eb1e622f1, type: 3}
       propertyPath: m_Name
@@ -5729,6 +5821,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6349321596802701981, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9005686331412937464, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
       propertyPath: m_Name
       value: Cherries_0 (20)
@@ -5891,6 +5987,10 @@ PrefabInstance:
     - target: {fileID: 1548809865982736094, guid: 4e2410a2c9b6ea84a918304eb1e622f1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3621914253399856726, guid: 4e2410a2c9b6ea84a918304eb1e622f1, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8455679373023807314, guid: 4e2410a2c9b6ea84a918304eb1e622f1, type: 3}
       propertyPath: m_Name
@@ -6387,6 +6487,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bananas_0 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6250977281583642859, guid: 78880161ce20bd34491133b8e2682011, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8269352882909934520, guid: 78880161ce20bd34491133b8e2682011, type: 3}
       propertyPath: m_LocalPosition.x
       value: -372.38
@@ -6480,6 +6584,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3621914253399856726, guid: 4e2410a2c9b6ea84a918304eb1e622f1, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8455679373023807314, guid: 4e2410a2c9b6ea84a918304eb1e622f1, type: 3}
       propertyPath: m_Name
       value: Kiwi_0
@@ -6505,6 +6613,10 @@ PrefabInstance:
     - target: {fileID: 3333739213498057118, guid: 3b1f584d6ae4027418536e3e0d2d8e3e, type: 3}
       propertyPath: m_Name
       value: Melon_0 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5646822875302202366, guid: 3b1f584d6ae4027418536e3e0d2d8e3e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6604323652222841139, guid: 3b1f584d6ae4027418536e3e0d2d8e3e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6607,6 +6719,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bananas_0 (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 6250977281583642859, guid: 78880161ce20bd34491133b8e2682011, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8269352882909934520, guid: 78880161ce20bd34491133b8e2682011, type: 3}
       propertyPath: m_LocalPosition.x
       value: -56.919983
@@ -6668,6 +6784,10 @@ PrefabInstance:
     - target: {fileID: 3333739213498057118, guid: 3b1f584d6ae4027418536e3e0d2d8e3e, type: 3}
       propertyPath: m_Name
       value: Melon_0 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5646822875302202366, guid: 3b1f584d6ae4027418536e3e0d2d8e3e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6604323652222841139, guid: 3b1f584d6ae4027418536e3e0d2d8e3e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6860,6 +6980,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Melon_0 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5646822875302202366, guid: 3b1f584d6ae4027418536e3e0d2d8e3e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6604323652222841139, guid: 3b1f584d6ae4027418536e3e0d2d8e3e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -159.34
@@ -6921,6 +7045,10 @@ PrefabInstance:
     - target: {fileID: 5529930824640783560, guid: 78880161ce20bd34491133b8e2682011, type: 3}
       propertyPath: m_Name
       value: Bananas_0 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6250977281583642859, guid: 78880161ce20bd34491133b8e2682011, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8269352882909934520, guid: 78880161ce20bd34491133b8e2682011, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7019,6 +7147,10 @@ PrefabInstance:
     - target: {fileID: 5177808882741627665, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6349321596802701981, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9005686331412937464, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
       propertyPath: m_Name
@@ -7254,6 +7386,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 4650435948287523898, guid: 68b57492f1f181c4a967c9128196fd03, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4650435948287523898, guid: 68b57492f1f181c4a967c9128196fd03, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4650435948287523898, guid: 68b57492f1f181c4a967c9128196fd03, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4650435948287523898, guid: 68b57492f1f181c4a967c9128196fd03, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4278255615
+      objectReference: {fileID: 0}
     - target: {fileID: 5596782805522050931, guid: 68b57492f1f181c4a967c9128196fd03, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -7371,6 +7519,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bananas_0 (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 6250977281583642859, guid: 78880161ce20bd34491133b8e2682011, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8269352882909934520, guid: 78880161ce20bd34491133b8e2682011, type: 3}
       propertyPath: m_LocalPosition.x
       value: -61.339996
@@ -7434,6 +7586,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2088203902}
     m_Modifications:
+    - target: {fileID: 794195888747811014, guid: c618519147eddd643af4369140e8019b, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6696236887796383802, guid: c618519147eddd643af4369140e8019b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -326.45
@@ -7675,6 +7831,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2088203902}
     m_Modifications:
+    - target: {fileID: 794195888747811014, guid: c618519147eddd643af4369140e8019b, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6696236887796383802, guid: c618519147eddd643af4369140e8019b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -130.18
@@ -7768,6 +7928,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2088203902}
     m_Modifications:
+    - target: {fileID: 794195888747811014, guid: c618519147eddd643af4369140e8019b, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6696236887796383802, guid: c618519147eddd643af4369140e8019b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -285.51
@@ -8034,6 +8198,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3621914253399856726, guid: 4e2410a2c9b6ea84a918304eb1e622f1, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8455679373023807314, guid: 4e2410a2c9b6ea84a918304eb1e622f1, type: 3}
       propertyPath: m_Name
       value: Kiwi_0 (9)
@@ -8098,6 +8266,10 @@ PrefabInstance:
     - target: {fileID: 5529930824640783560, guid: 78880161ce20bd34491133b8e2682011, type: 3}
       propertyPath: m_Name
       value: Bananas_0 (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6250977281583642859, guid: 78880161ce20bd34491133b8e2682011, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8269352882909934520, guid: 78880161ce20bd34491133b8e2682011, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8553,6 +8725,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bananas_0 (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 6250977281583642859, guid: 78880161ce20bd34491133b8e2682011, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8269352882909934520, guid: 78880161ce20bd34491133b8e2682011, type: 3}
       propertyPath: m_LocalPosition.x
       value: -47
@@ -8692,7 +8868,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.14054108, y: 2.1484587}
+  m_Offset: {x: 0.02318573, y: 2.0276039}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -8702,7 +8878,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 3.296341, y: 4.319134}
+  m_Size: {x: 2.1551666, y: 4.0774245}
   m_EdgeRadius: 0
 --- !u!1 &928129059 stripped
 GameObject:
@@ -8720,6 +8896,10 @@ PrefabInstance:
     - target: {fileID: 5529930824640783560, guid: 78880161ce20bd34491133b8e2682011, type: 3}
       propertyPath: m_Name
       value: Bananas_0 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6250977281583642859, guid: 78880161ce20bd34491133b8e2682011, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8269352882909934520, guid: 78880161ce20bd34491133b8e2682011, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8818,6 +8998,10 @@ PrefabInstance:
     - target: {fileID: 5529930824640783560, guid: 78880161ce20bd34491133b8e2682011, type: 3}
       propertyPath: m_Name
       value: Bananas_0 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6250977281583642859, guid: 78880161ce20bd34491133b8e2682011, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8269352882909934520, guid: 78880161ce20bd34491133b8e2682011, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9799,6 +9983,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2088203902}
     m_Modifications:
+    - target: {fileID: 794195888747811014, guid: c618519147eddd643af4369140e8019b, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6696236887796383802, guid: c618519147eddd643af4369140e8019b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -154.276
@@ -9929,6 +10117,10 @@ PrefabInstance:
     - target: {fileID: 5529930824640783560, guid: 78880161ce20bd34491133b8e2682011, type: 3}
       propertyPath: m_Name
       value: Bananas_0 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6250977281583642859, guid: 78880161ce20bd34491133b8e2682011, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8269352882909934520, guid: 78880161ce20bd34491133b8e2682011, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10112,6 +10304,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Melon_0 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 5646822875302202366, guid: 3b1f584d6ae4027418536e3e0d2d8e3e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6604323652222841139, guid: 3b1f584d6ae4027418536e3e0d2d8e3e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -174.11
@@ -10170,6 +10366,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2088203902}
     m_Modifications:
+    - target: {fileID: 794195888747811014, guid: c618519147eddd643af4369140e8019b, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6696236887796383802, guid: c618519147eddd643af4369140e8019b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -383.74
@@ -10311,6 +10511,58 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2297213914417233271, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
+      propertyPath: m_Color.b
+      value: 0.26666668
+      objectReference: {fileID: 0}
+    - target: {fileID: 2297213914417233271, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
+      propertyPath: m_Color.g
+      value: 0.26666668
+      objectReference: {fileID: 0}
+    - target: {fileID: 2297213914417233271, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
+      propertyPath: m_Color.r
+      value: 0.9372549
+      objectReference: {fileID: 0}
+    - target: {fileID: 2435338041205070039, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
+      propertyPath: m_fontColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2435338041205070039, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
+      propertyPath: m_fontColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2435338041205070039, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2435338041205070039, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 2777680189897126826, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
+      propertyPath: m_Colors.m_PressedColor.b
+      value: 0.23921569
+      objectReference: {fileID: 0}
+    - target: {fileID: 2777680189897126826, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
+      propertyPath: m_Colors.m_PressedColor.g
+      value: 0.5019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 2777680189897126826, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
+      propertyPath: m_Colors.m_PressedColor.r
+      value: 0.08235294
+      objectReference: {fileID: 0}
+    - target: {fileID: 2777680189897126826, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.b
+      value: 0.2901961
+      objectReference: {fileID: 0}
+    - target: {fileID: 2777680189897126826, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.g
+      value: 0.6392157
+      objectReference: {fileID: 0}
+    - target: {fileID: 2777680189897126826, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.r
+      value: 0.08627451
+      objectReference: {fileID: 0}
     - target: {fileID: 2777680189897126826, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -10332,12 +10584,60 @@ PrefabInstance:
       value: 400
       objectReference: {fileID: 0}
     - target: {fileID: 4152341343203455406, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
+      propertyPath: m_Colors.m_PressedColor.b
+      value: 0.023529412
+      objectReference: {fileID: 0}
+    - target: {fileID: 4152341343203455406, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
+      propertyPath: m_Colors.m_PressedColor.g
+      value: 0.46666667
+      objectReference: {fileID: 0}
+    - target: {fileID: 4152341343203455406, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
+      propertyPath: m_Colors.m_PressedColor.r
+      value: 0.8509804
+      objectReference: {fileID: 0}
+    - target: {fileID: 4152341343203455406, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.b
+      value: 0.043137256
+      objectReference: {fileID: 0}
+    - target: {fileID: 4152341343203455406, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.g
+      value: 0.61960787
+      objectReference: {fileID: 0}
+    - target: {fileID: 4152341343203455406, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.r
+      value: 0.9607843
+      objectReference: {fileID: 0}
+    - target: {fileID: 4152341343203455406, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 90445444}
     - target: {fileID: 4152341343203455406, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: MakeGamePause
+      objectReference: {fileID: 0}
+    - target: {fileID: 4574991033383959345, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
+      propertyPath: m_Colors.m_PressedColor.b
+      value: 0.03529412
+      objectReference: {fileID: 0}
+    - target: {fileID: 4574991033383959345, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
+      propertyPath: m_Colors.m_PressedColor.g
+      value: 0.3254902
+      objectReference: {fileID: 0}
+    - target: {fileID: 4574991033383959345, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
+      propertyPath: m_Colors.m_PressedColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 4574991033383959345, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.b
+      value: 0.023529412
+      objectReference: {fileID: 0}
+    - target: {fileID: 4574991033383959345, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.g
+      value: 0.46666667
+      objectReference: {fileID: 0}
+    - target: {fileID: 4574991033383959345, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.r
+      value: 0.8509804
       objectReference: {fileID: 0}
     - target: {fileID: 4574991033383959345, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -10347,13 +10647,109 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: MakeGameRestart
       objectReference: {fileID: 0}
+    - target: {fileID: 4999983447852511447, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
+      propertyPath: m_Color.b
+      value: 0.36862746
+      objectReference: {fileID: 0}
+    - target: {fileID: 4999983447852511447, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
+      propertyPath: m_Color.g
+      value: 0.77254903
+      objectReference: {fileID: 0}
+    - target: {fileID: 4999983447852511447, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
+      propertyPath: m_Color.r
+      value: 0.13333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 5504112657572191955, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
+      propertyPath: m_Color.b
+      value: 0.043137256
+      objectReference: {fileID: 0}
+    - target: {fileID: 5504112657572191955, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
+      propertyPath: m_Color.g
+      value: 0.61960787
+      objectReference: {fileID: 0}
+    - target: {fileID: 5504112657572191955, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
+      propertyPath: m_Color.r
+      value: 0.9607843
+      objectReference: {fileID: 0}
     - target: {fileID: 6914856673820031361, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
       propertyPath: m_Color.b
-      value: 0
+      value: 0.14117648
       objectReference: {fileID: 0}
     - target: {fileID: 6914856673820031361, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
       propertyPath: m_Color.g
-      value: 0.9529412
+      value: 0.7490196
+      objectReference: {fileID: 0}
+    - target: {fileID: 6914856673820031361, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
+      propertyPath: m_Color.r
+      value: 0.9843137
+      objectReference: {fileID: 0}
+    - target: {fileID: 7221326650027326864, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
+      propertyPath: m_fontColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7221326650027326864, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
+      propertyPath: m_fontColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7221326650027326864, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7221326650027326864, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7425601024129200962, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
+      propertyPath: m_Color.b
+      value: 0.21568628
+      objectReference: {fileID: 0}
+    - target: {fileID: 7425601024129200962, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
+      propertyPath: m_Color.g
+      value: 0.16078432
+      objectReference: {fileID: 0}
+    - target: {fileID: 7425601024129200962, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
+      propertyPath: m_Color.r
+      value: 0.12156863
+      objectReference: {fileID: 0}
+    - target: {fileID: 7744056000188437119, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
+      propertyPath: m_fontColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7744056000188437119, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
+      propertyPath: m_fontColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7744056000188437119, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7744056000188437119, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8285350974254232550, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
+      propertyPath: m_Colors.m_PressedColor.b
+      value: 0.10980392
+      objectReference: {fileID: 0}
+    - target: {fileID: 8285350974254232550, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
+      propertyPath: m_Colors.m_PressedColor.g
+      value: 0.10980392
+      objectReference: {fileID: 0}
+    - target: {fileID: 8285350974254232550, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
+      propertyPath: m_Colors.m_PressedColor.r
+      value: 0.7254902
+      objectReference: {fileID: 0}
+    - target: {fileID: 8285350974254232550, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.b
+      value: 0.14901961
+      objectReference: {fileID: 0}
+    - target: {fileID: 8285350974254232550, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.g
+      value: 0.14901961
+      objectReference: {fileID: 0}
+    - target: {fileID: 8285350974254232550, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.r
+      value: 0.8627451
       objectReference: {fileID: 0}
     - target: {fileID: 8285350974254232550, guid: 9b0e3c1119c94864d9645ff522534ece, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -10425,6 +10821,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6349321596802701981, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9005686331412937464, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
       propertyPath: m_Name
       value: Cherries_0 (8)
@@ -10447,6 +10847,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2088203902}
     m_Modifications:
+    - target: {fileID: 794195888747811014, guid: c618519147eddd643af4369140e8019b, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6696236887796383802, guid: c618519147eddd643af4369140e8019b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -304.81
@@ -10927,6 +11331,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6349321596802701981, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9005686331412937464, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
       propertyPath: m_Name
       value: Cherries_0 (7)
@@ -11352,6 +11760,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6349321596802701981, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9005686331412937464, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
       propertyPath: m_Name
       value: Cherries_0 (13)
@@ -11413,6 +11825,10 @@ PrefabInstance:
     - target: {fileID: 5177808882741627665, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6349321596802701981, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9005686331412937464, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
       propertyPath: m_Name
@@ -11560,7 +11976,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.12931824, y: 2.0876322}
+  m_Offset: {x: 0.035751343, y: 2.033009}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -11570,7 +11986,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 3.7093506, y: 4.1934004}
+  m_Size: {x: 2.1215515, y: 4.084154}
   m_EdgeRadius: 0
 --- !u!1 &1188990054
 GameObject:
@@ -11756,6 +12172,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2088203902}
     m_Modifications:
+    - target: {fileID: 794195888747811014, guid: c618519147eddd643af4369140e8019b, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6696236887796383802, guid: c618519147eddd643af4369140e8019b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -390.47977
@@ -11817,6 +12237,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bananas_0 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6250977281583642859, guid: 78880161ce20bd34491133b8e2682011, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8269352882909934520, guid: 78880161ce20bd34491133b8e2682011, type: 3}
       propertyPath: m_LocalPosition.x
       value: -273.15717
@@ -11873,6 +12297,10 @@ PrefabInstance:
     - target: {fileID: 3333739213498057118, guid: 3b1f584d6ae4027418536e3e0d2d8e3e, type: 3}
       propertyPath: m_Name
       value: Melon_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5646822875302202366, guid: 3b1f584d6ae4027418536e3e0d2d8e3e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6604323652222841139, guid: 3b1f584d6ae4027418536e3e0d2d8e3e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11945,7 +12373,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3340256131224380881, guid: fc4b94b691011d44281657afe063a58e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 32.211914
+      value: 31.62
       objectReference: {fileID: 0}
     - target: {fileID: 3340256131224380881, guid: fc4b94b691011d44281657afe063a58e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11986,6 +12414,10 @@ PrefabInstance:
     - target: {fileID: 3524176278680731619, guid: fc4b94b691011d44281657afe063a58e, type: 3}
       propertyPath: m_Name
       value: SpikeBallChain (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4086449555410127533, guid: fc4b94b691011d44281657afe063a58e, type: 3}
+      propertyPath: m_Radius
+      value: 0.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12040,6 +12472,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3621914253399856726, guid: 4e2410a2c9b6ea84a918304eb1e622f1, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8455679373023807314, guid: 4e2410a2c9b6ea84a918304eb1e622f1, type: 3}
       propertyPath: m_Name
       value: Kiwi_0 (11)
@@ -12065,6 +12501,10 @@ PrefabInstance:
     - target: {fileID: 3333739213498057118, guid: 3b1f584d6ae4027418536e3e0d2d8e3e, type: 3}
       propertyPath: m_Name
       value: Melon_0 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5646822875302202366, guid: 3b1f584d6ae4027418536e3e0d2d8e3e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6604323652222841139, guid: 3b1f584d6ae4027418536e3e0d2d8e3e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12483,6 +12923,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Melon_0 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 5646822875302202366, guid: 3b1f584d6ae4027418536e3e0d2d8e3e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6604323652222841139, guid: 3b1f584d6ae4027418536e3e0d2d8e3e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -174.11
@@ -12544,6 +12988,10 @@ PrefabInstance:
     - target: {fileID: 5529930824640783560, guid: 78880161ce20bd34491133b8e2682011, type: 3}
       propertyPath: m_Name
       value: Bananas_0 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6250977281583642859, guid: 78880161ce20bd34491133b8e2682011, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8269352882909934520, guid: 78880161ce20bd34491133b8e2682011, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12643,6 +13091,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6349321596802701981, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9005686331412937464, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
       propertyPath: m_Name
       value: Cherries_0 (3)
@@ -12676,16 +13128,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
   leftWallObject: {fileID: 952854662}
   rightWallObject: {fileID: 607766328}
---- !u!61 &1287861651
-BoxCollider2D:
+--- !u!65 &1287861651
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1287861648}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -12694,34 +13143,12 @@ BoxCollider2D:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0.16093063, y: 2.1034956}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 3.7968369, y: 4.2735357}
-  m_EdgeRadius: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.0200043, y: 4.2968326, z: 1}
+  m_Center: {x: 0.045448303, y: 2.133167, z: 0}
 --- !u!1001 &1301992060
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12733,6 +13160,10 @@ PrefabInstance:
     - target: {fileID: 5529930824640783560, guid: 78880161ce20bd34491133b8e2682011, type: 3}
       propertyPath: m_Name
       value: Bananas_0 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6250977281583642859, guid: 78880161ce20bd34491133b8e2682011, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8269352882909934520, guid: 78880161ce20bd34491133b8e2682011, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12938,6 +13369,10 @@ PrefabInstance:
     - target: {fileID: 5529930824640783560, guid: 78880161ce20bd34491133b8e2682011, type: 3}
       propertyPath: m_Name
       value: Bananas_0 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6250977281583642859, guid: 78880161ce20bd34491133b8e2682011, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8269352882909934520, guid: 78880161ce20bd34491133b8e2682011, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13255,6 +13690,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6349321596802701981, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9005686331412937464, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
       propertyPath: m_Name
       value: Cherries_0 (24)
@@ -13316,6 +13755,10 @@ PrefabInstance:
     - target: {fileID: 5177808882741627665, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6349321596802701981, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9005686331412937464, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
       propertyPath: m_Name
@@ -13646,6 +14089,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpikeBallChain
       objectReference: {fileID: 0}
+    - target: {fileID: 4086449555410127533, guid: fc4b94b691011d44281657afe063a58e, type: 3}
+      propertyPath: m_Radius
+      value: 0.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13938,6 +14385,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6349321596802701981, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9005686331412937464, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
       propertyPath: m_Name
       value: Cherries_0 (14)
@@ -13963,6 +14414,10 @@ PrefabInstance:
     - target: {fileID: 5529930824640783560, guid: 78880161ce20bd34491133b8e2682011, type: 3}
       propertyPath: m_Name
       value: Bananas_0 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6250977281583642859, guid: 78880161ce20bd34491133b8e2682011, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8269352882909934520, guid: 78880161ce20bd34491133b8e2682011, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14137,6 +14592,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2088203902}
     m_Modifications:
+    - target: {fileID: 794195888747811014, guid: c618519147eddd643af4369140e8019b, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6696236887796383802, guid: c618519147eddd643af4369140e8019b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -308.88135
@@ -14234,6 +14693,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3621914253399856726, guid: 4e2410a2c9b6ea84a918304eb1e622f1, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8455679373023807314, guid: 4e2410a2c9b6ea84a918304eb1e622f1, type: 3}
       propertyPath: m_Name
       value: Kiwi_0 (8)
@@ -14256,6 +14719,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2088203902}
     m_Modifications:
+    - target: {fileID: 794195888747811014, guid: c618519147eddd643af4369140e8019b, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6696236887796383802, guid: c618519147eddd643af4369140e8019b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -295.4
@@ -14528,6 +14995,10 @@ PrefabInstance:
     - target: {fileID: 5177808882741627665, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6349321596802701981, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9005686331412937464, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
       propertyPath: m_Name
@@ -14820,6 +15291,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3621914253399856726, guid: 4e2410a2c9b6ea84a918304eb1e622f1, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8455679373023807314, guid: 4e2410a2c9b6ea84a918304eb1e622f1, type: 3}
       propertyPath: m_Name
       value: Kiwi_0 (1)
@@ -15051,6 +15526,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6349321596802701981, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9005686331412937464, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
       propertyPath: m_Name
       value: Cherries_0 (4)
@@ -15107,6 +15586,10 @@ PrefabInstance:
     - target: {fileID: 1548809865982736094, guid: 4e2410a2c9b6ea84a918304eb1e622f1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3621914253399856726, guid: 4e2410a2c9b6ea84a918304eb1e622f1, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8455679373023807314, guid: 4e2410a2c9b6ea84a918304eb1e622f1, type: 3}
       propertyPath: m_Name
@@ -15239,7 +15722,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.0012818128, y: 0.0036562942}
+  m_Offset: {x: 0.03302101, y: 0.003656298}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -15249,7 +15732,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.43531498, y: 0.22438738}
+  m_Size: {x: 0.2891602, y: 0.22438738}
   m_EdgeRadius: 0
 --- !u!95 &1604337027
 Animator:
@@ -15343,6 +15826,10 @@ PrefabInstance:
     - target: {fileID: 5529930824640783560, guid: 78880161ce20bd34491133b8e2682011, type: 3}
       propertyPath: m_Name
       value: Bananas_0 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6250977281583642859, guid: 78880161ce20bd34491133b8e2682011, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8269352882909934520, guid: 78880161ce20bd34491133b8e2682011, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15538,6 +16025,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6349321596802701981, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9005686331412937464, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
       propertyPath: m_Name
       value: Cherries_0 (1)
@@ -15594,6 +16085,10 @@ PrefabInstance:
     - target: {fileID: 5177808882741627665, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6349321596802701981, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9005686331412937464, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
       propertyPath: m_Name
@@ -16018,6 +16513,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2088203902}
     m_Modifications:
+    - target: {fileID: 794195888747811014, guid: c618519147eddd643af4369140e8019b, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6696236887796383802, guid: c618519147eddd643af4369140e8019b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -388.38
@@ -16078,6 +16577,10 @@ PrefabInstance:
     - target: {fileID: 3333739213498057118, guid: 3b1f584d6ae4027418536e3e0d2d8e3e, type: 3}
       propertyPath: m_Name
       value: Melon_0 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5646822875302202366, guid: 3b1f584d6ae4027418536e3e0d2d8e3e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6604323652222841139, guid: 3b1f584d6ae4027418536e3e0d2d8e3e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16274,6 +16777,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bananas_0 (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 6250977281583642859, guid: 78880161ce20bd34491133b8e2682011, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8269352882909934520, guid: 78880161ce20bd34491133b8e2682011, type: 3}
       propertyPath: m_LocalPosition.x
       value: -66.32001
@@ -16332,6 +16839,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2088203902}
     m_Modifications:
+    - target: {fileID: 794195888747811014, guid: c618519147eddd643af4369140e8019b, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6696236887796383802, guid: c618519147eddd643af4369140e8019b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -138.42
@@ -16464,6 +16975,10 @@ PrefabInstance:
     - target: {fileID: 5177808882741627665, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6349321596802701981, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9005686331412937464, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
       propertyPath: m_Name
@@ -16819,6 +17334,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6349321596802701981, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9005686331412937464, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
       propertyPath: m_Name
       value: Cherries_0 (17)
@@ -17098,6 +17617,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Melon_0 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 5646822875302202366, guid: 3b1f584d6ae4027418536e3e0d2d8e3e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6604323652222841139, guid: 3b1f584d6ae4027418536e3e0d2d8e3e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -174.11
@@ -17297,6 +17820,10 @@ PrefabInstance:
     - target: {fileID: 5529930824640783560, guid: 78880161ce20bd34491133b8e2682011, type: 3}
       propertyPath: m_Name
       value: Bananas_0 (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6250977281583642859, guid: 78880161ce20bd34491133b8e2682011, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8269352882909934520, guid: 78880161ce20bd34491133b8e2682011, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17562,6 +18089,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3621914253399856726, guid: 4e2410a2c9b6ea84a918304eb1e622f1, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8455679373023807314, guid: 4e2410a2c9b6ea84a918304eb1e622f1, type: 3}
       propertyPath: m_Name
       value: Kiwi_0 (10)
@@ -17694,7 +18225,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.001636818, y: 0.0019056424}
+  m_Offset: {x: -0.016363613, y: 0.0019056424}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -17704,7 +18235,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.45835117, y: 0.20854266}
+  m_Size: {x: 0.25445557, y: 0.20854266}
   m_EdgeRadius: 0
 --- !u!95 &1851339488
 Animator:
@@ -17933,6 +18464,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2088203902}
     m_Modifications:
+    - target: {fileID: 794195888747811014, guid: c618519147eddd643af4369140e8019b, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6696236887796383802, guid: c618519147eddd643af4369140e8019b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -150.58
@@ -18271,6 +18806,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2088203902}
     m_Modifications:
+    - target: {fileID: 794195888747811014, guid: c618519147eddd643af4369140e8019b, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6696236887796383802, guid: c618519147eddd643af4369140e8019b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -300.15
@@ -18546,6 +19085,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6349321596802701981, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9005686331412937464, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
       propertyPath: m_Name
       value: Cherries_0
@@ -18693,6 +19236,10 @@ PrefabInstance:
     - target: {fileID: 5177808882741627665, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6349321596802701981, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9005686331412937464, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
       propertyPath: m_Name
@@ -19025,6 +19572,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2088203902}
     m_Modifications:
+    - target: {fileID: 794195888747811014, guid: c618519147eddd643af4369140e8019b, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6696236887796383802, guid: c618519147eddd643af4369140e8019b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -134.03
@@ -19107,6 +19658,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2088203902}
     m_Modifications:
+    - target: {fileID: 794195888747811014, guid: c618519147eddd643af4369140e8019b, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6696236887796383802, guid: c618519147eddd643af4369140e8019b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -386.22
@@ -19234,10 +19789,10 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 3734302803370025861, guid: b46c11b51abdae34f85fabcc268af9f5, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1287861651}
+      addedObject: {fileID: 1287861650}
     - targetCorrespondingSourceObject: {fileID: 3734302803370025861, guid: b46c11b51abdae34f85fabcc268af9f5, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1287861650}
+      addedObject: {fileID: 1287861651}
   m_SourcePrefab: {fileID: 100100000, guid: b46c11b51abdae34f85fabcc268af9f5, type: 3}
 --- !u!1001 &2011760722
 PrefabInstance:
@@ -19286,6 +19841,10 @@ PrefabInstance:
     - target: {fileID: 5177808882741627665, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6349321596802701981, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9005686331412937464, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
       propertyPath: m_Name
@@ -19524,6 +20083,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Melon_0 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5646822875302202366, guid: 3b1f584d6ae4027418536e3e0d2d8e3e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6604323652222841139, guid: 3b1f584d6ae4027418536e3e0d2d8e3e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -170.4986
@@ -19658,6 +20221,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6349321596802701981, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9005686331412937464, guid: b1ff96d81b5e32346bc736e35ad8e254, type: 3}
       propertyPath: m_Name
       value: Cherries_0 (12)
@@ -19678,6 +20245,10 @@ PrefabInstance:
     - target: {fileID: 5529930824640783560, guid: 78880161ce20bd34491133b8e2682011, type: 3}
       propertyPath: m_Name
       value: Bananas_0 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6250977281583642859, guid: 78880161ce20bd34491133b8e2682011, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8269352882909934520, guid: 78880161ce20bd34491133b8e2682011, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19732,6 +20303,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2088203902}
     m_Modifications:
+    - target: {fileID: 794195888747811014, guid: c618519147eddd643af4369140e8019b, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6696236887796383802, guid: c618519147eddd643af4369140e8019b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -147.23
@@ -19935,6 +20510,10 @@ PrefabInstance:
     - target: {fileID: 3333739213498057118, guid: 3b1f584d6ae4027418536e3e0d2d8e3e, type: 3}
       propertyPath: m_Name
       value: Melon_0 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5646822875302202366, guid: 3b1f584d6ae4027418536e3e0d2d8e3e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6604323652222841139, guid: 3b1f584d6ae4027418536e3e0d2d8e3e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20381,6 +20960,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bananas_0 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6250977281583642859, guid: 78880161ce20bd34491133b8e2682011, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8269352882909934520, guid: 78880161ce20bd34491133b8e2682011, type: 3}
       propertyPath: m_LocalPosition.x
       value: -118.119415
@@ -20479,6 +21062,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3621914253399856726, guid: 4e2410a2c9b6ea84a918304eb1e622f1, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8455679373023807314, guid: 4e2410a2c9b6ea84a918304eb1e622f1, type: 3}
       propertyPath: m_Name
       value: Kiwi_0 (3)
@@ -20532,6 +21119,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2088203902}
     m_Modifications:
+    - target: {fileID: 794195888747811014, guid: c618519147eddd643af4369140e8019b, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6696236887796383802, guid: c618519147eddd643af4369140e8019b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -126.19
@@ -20633,6 +21224,10 @@ PrefabInstance:
     - target: {fileID: 1548809865982736094, guid: 4e2410a2c9b6ea84a918304eb1e622f1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3621914253399856726, guid: 4e2410a2c9b6ea84a918304eb1e622f1, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8455679373023807314, guid: 4e2410a2c9b6ea84a918304eb1e622f1, type: 3}
       propertyPath: m_Name

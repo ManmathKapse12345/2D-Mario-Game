@@ -269,6 +269,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e843053aa7738c24bb95da8216d40f3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CameraAspect
+  targetAspect: 1.7777778
 --- !u!1 &716031829
 GameObject:
   m_ObjectHideFlags: 0
@@ -332,7 +333,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.8627451, g: 0.14901961, b: 0.14901961, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -378,7 +379,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.46415097, g: 1, b: 0.99370146, a: 1}
+  m_Color: {r: 0.9372549, g: 0.26666668, b: 0.26666668, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -415,9 +416,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 433382eddb23dfd4e9e41906025c5974, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MenuScript
-  image: {fileID: 0}
-  normalColor: {r: 0.4627451, g: 1, b: 0.99215686, a: 1}
-  hoverColor: {r: 1, g: 0, b: 0, a: 1}
+  normalColor: {r: 0.9372549, g: 0.26666668, b: 0.26666668, a: 1}
+  hoverColor: {r: 0.972549, g: 0.44313726, b: 0.44313726, a: 1}
 --- !u!1 &772297498
 GameObject:
   m_ObjectHideFlags: 0
@@ -484,8 +484,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -804,7 +804,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.88614523, g: 1, b: 0.85660374, a: 1}
+  m_Color: {r: 0.5294118, g: 0.80784315, b: 0.92156863, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -891,7 +891,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.08627451, g: 0.6392157, b: 0.2901961, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -937,7 +937,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.4627451, g: 1, b: 0.99215686, a: 1}
+  m_Color: {r: 0.13333334, g: 0.77254903, b: 0.36862746, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -974,9 +974,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 433382eddb23dfd4e9e41906025c5974, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MenuScript
-  image: {fileID: 0}
-  normalColor: {r: 0.4627451, g: 1, b: 0.99215686, a: 1}
-  hoverColor: {r: 1, g: 0, b: 0, a: 1}
+  normalColor: {r: 0.13333334, g: 0.77254903, b: 0.36862746, a: 1}
+  hoverColor: {r: 0.2901961, g: 0.87058824, b: 0.5019608, a: 1}
 --- !u!1 &1602419012
 GameObject:
   m_ObjectHideFlags: 0
@@ -1043,8 +1042,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1246,7 +1245,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 433382eddb23dfd4e9e41906025c5974, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MenuScript
-  image: {fileID: 0}
   normalColor: {r: 0.4627451, g: 1, b: 0.99215686, a: 1}
   hoverColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!4 &2146120279

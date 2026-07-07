@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class MenuScript : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
-    public Image image;
+    private Image image;
     public Color normalColor = Color.blue;
     public Color hoverColor = Color.red;
 

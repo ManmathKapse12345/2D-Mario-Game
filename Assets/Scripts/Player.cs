@@ -58,7 +58,7 @@ public class Player : MonoBehaviour
         {
             transform.Translate(Vector3.right*Time.deltaTime*translationSpeed*horizontalInput);
         }
-        if (Input.GetKey(KeyCode.Space) && isGround && !isGameOver && !isPause)
+        if (Input.GetKeyDown(KeyCode.Space) && isGround && !isGameOver && !isPause)
         {
             playerRigidBody2D.AddForce(Vector3.up*force,ForceMode2D.Impulse);
             isGround=false;
@@ -98,31 +98,7 @@ public class Player : MonoBehaviour
             isOnPlatform=true;
             transform.SetParent(collision.transform);
         }
-        if (collision.gameObject.CompareTag("Apple"))
-        {
-            health=health+8;
-            Destroy(collision.gameObject);
-        }
-        if (collision.gameObject.CompareTag("Banana"))
-        {
-            health=health+10;
-            Destroy(collision.gameObject);
-        }
-        if (collision.gameObject.CompareTag("Cherry"))
-        {
-            health=health+12;
-            Destroy(collision.gameObject);
-        }
-        if (collision.gameObject.CompareTag("Kiwi"))
-        {
-            health=health+14;
-            Destroy(collision.gameObject);
-        }
-        if (collision.gameObject.CompareTag("Melon"))
-        {
-            health=health+16;
-            Destroy(collision.gameObject);
-        }
+        
         if (collision.gameObject.CompareTag("Ground"))
         {
             isGround = true;
@@ -147,6 +123,35 @@ public class Player : MonoBehaviour
         if (collision.gameObject.CompareTag("Platform"))
         {
             transform.SetParent(null);
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Apple"))
+        {
+            health=health+8;
+            Destroy(collision.gameObject);
+        }
+        if (collision.gameObject.CompareTag("Banana"))
+        {
+            health=health+10;
+            Destroy(collision.gameObject);
+        }
+        if (collision.gameObject.CompareTag("Cherry"))
+        {
+            health=health+12;
+            Destroy(collision.gameObject);
+        }
+        if (collision.gameObject.CompareTag("Kiwi"))
+        {
+            health=health+14;
+            Destroy(collision.gameObject);
+        }
+        if (collision.gameObject.CompareTag("Melon"))
+        {
+            health=health+16;
+            Destroy(collision.gameObject);
         }
     }
 }

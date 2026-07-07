@@ -8,7 +8,7 @@ using Unity.VisualScripting;
 public class LevelSelectionScript : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    public Image image;
+    private Image image;
     public Color normalColor = Color.blue;
     public Color hoverColor = Color.red;
 
