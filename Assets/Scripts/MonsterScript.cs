@@ -11,6 +11,7 @@ public class MonsterScript : MonoBehaviour
     private Animator animator;
     private bool isAttacking=false;
     private Player playerScript; 
+    private bool isCollided = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -42,13 +43,49 @@ public class MonsterScript : MonoBehaviour
     }
     void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("Monster collided outside if");
-        if(collision.gameObject.CompareTag("Player") && !isAttacking)
+        foreach(ContactPoint2D contactPoint2D in collision.contacts)
         {
-            Debug.Log("Monster Collided inside if");
-            isAttacking=true;
-            animator.SetBool("doAttack",true);
-            StartCoroutine(ReloadSceneAfterAttack());
+            Vector2 normal = contactPoint2D.normal;
+
+            // if(Mathf.Abs(normal.y) > Mathf.Abs(normal.x))
+            // {
+            //     isCollided = true;
+            //     Debug.Log("Vertical Collision");
+            //     Destroy(gameObject);
+            //     playerScript.health= playerScript.health+5;
+            // }
+            // else
+            // {
+            //     isCollided = true;                
+            //     Debug.Log("Monster collided outside if");
+            //     if(collision.gameObject.CompareTag("Player") && !isAttacking)
+            //     {
+            //         Debug.Log("Monster Collided inside if");
+            //         isAttacking=true;
+            //         animator.SetBool("doAttack",true);
+            //         StartCoroutine(ReloadSceneAfterAttack());
+            //     }
+            // }
+
+            if(Mathf.Abs(normal.y) > Mathf.Abs(normal.x) && !isCollided)
+            {
+                isCollided = true;
+                Debug.Log("Vertical Collision");
+                Destroy(gameObject);
+                playerScript.health= playerScript.health+5;
+            }
+            else if(Mathf.Abs(normal.x) > Mathf.Abs(normal.y) && !isCollided)
+            {
+                isCollided = true;                
+                Debug.Log("Monster collided outside if");
+                if(collision.gameObject.CompareTag("Player") && !isAttacking)
+                {
+                    Debug.Log("Monster Collided inside if");
+                    isAttacking=true;
+                    animator.SetBool("doAttack",true);
+                    StartCoroutine(ReloadSceneAfterAttack());
+                }
+            }
         }
         // isAttacking=true;
     }

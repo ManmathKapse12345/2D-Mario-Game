@@ -52,7 +52,7 @@ public class SceneManagerScript : MonoBehaviour
         healthStatus.transform.position=new Vector2(xPos,yPos);
         pauseButton.transform.position = new Vector2(mainCamera.transform.position.x+pauseStatusOffsetX,mainCamera.transform.position.y+pauseStatusOffsetY);
         healthValue=playerScript.health;
-        healthStatus.text="Health :- "+healthValue;
+        healthStatus.text="Health Score :- "+healthValue;
         if (playerScript.isGameOver && playerScript.levelCompleted)
         {
             healthStatus.text=healthStatus.text+"\nYou have Completed "+SceneManager.GetActiveScene().name;

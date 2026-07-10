@@ -368,7 +368,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02a62e42e1c2931469ae91c1d20a9248, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelSelectionScript
-  image: {fileID: 0}
   normalColor: {r: 0.13333334, g: 0.77254903, b: 0.36862746, a: 1}
   hoverColor: {r: 0.08627451, g: 0.6392157, b: 0.2901961, a: 1}
 --- !u!1 &309468528
@@ -479,7 +478,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02a62e42e1c2931469ae91c1d20a9248, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelSelectionScript
-  image: {fileID: 0}
   normalColor: {r: 0, g: 0, b: 1, a: 1}
   hoverColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!4 &405540359
@@ -780,7 +778,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02a62e42e1c2931469ae91c1d20a9248, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelSelectionScript
-  image: {fileID: 0}
   normalColor: {r: 0.13333334, g: 0.77254903, b: 0.36862746, a: 1}
   hoverColor: {r: 0.08627451, g: 0.6392157, b: 0.2901961, a: 1}
 --- !u!1 &688686928
@@ -1171,7 +1168,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02a62e42e1c2931469ae91c1d20a9248, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelSelectionScript
-  image: {fileID: 0}
   normalColor: {r: 0.13333334, g: 0.77254903, b: 0.36862746, a: 1}
   hoverColor: {r: 0.08627451, g: 0.6392157, b: 0.2901961, a: 1}
 --- !u!1 &1187180033
@@ -1226,7 +1222,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02a62e42e1c2931469ae91c1d20a9248, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelSelectionScript
-  image: {fileID: 0}
   normalColor: {r: 0.13333334, g: 0.77254903, b: 0.36862746, a: 1}
   hoverColor: {r: 0.08627451, g: 0.6392157, b: 0.2901961, a: 1}
 --- !u!114 &1187180036
@@ -1675,7 +1670,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02a62e42e1c2931469ae91c1d20a9248, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelSelectionScript
-  image: {fileID: 0}
   normalColor: {r: 0.13333334, g: 0.77254903, b: 0.36862746, a: 1}
   hoverColor: {r: 0.08627451, g: 0.6392157, b: 0.2901961, a: 1}
 --- !u!1 &1504306738
@@ -1927,7 +1921,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02a62e42e1c2931469ae91c1d20a9248, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelSelectionScript
-  image: {fileID: 0}
   normalColor: {r: 0.13333334, g: 0.77254903, b: 0.36862746, a: 1}
   hoverColor: {r: 0.08627451, g: 0.6392157, b: 0.2901961, a: 1}
 --- !u!1 &1548606911
@@ -2271,7 +2264,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.11764706, g: 0.16078432, b: 0.23137255, a: 1}
+  m_Color: {r: 1, g: 0.9725491, b: 0.8627452, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

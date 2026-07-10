@@ -114,7 +114,15 @@ public class Player : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("Monster"))
         {
-            isGameOver=true;
+            foreach(ContactPoint2D contactPoint2D in collision.contacts)
+            {
+                Vector2 normal = contactPoint2D.normal;
+
+                if(Mathf.Abs(normal.x) > Mathf.Abs(normal.y))
+                {
+                    isGameOver=true;
+                }
+            }
         }
     }
 
