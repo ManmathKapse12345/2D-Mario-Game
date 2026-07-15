@@ -219,7 +219,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -244, y: 182}
+  m_AnchoredPosition: {x: -90, y: 282}
   m_SizeDelta: {x: 160, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &124281930
@@ -331,15 +331,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.13333334, g: 0.77254903, b: 0.36862746, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 3171161342243463218, guid: 2f36027e4b09dde4eb43e7d2e0fd717a, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -368,8 +368,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02a62e42e1c2931469ae91c1d20a9248, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelSelectionScript
-  normalColor: {r: 0.13333334, g: 0.77254903, b: 0.36862746, a: 1}
-  hoverColor: {r: 0.08627451, g: 0.6392157, b: 0.2901961, a: 1}
+  normalColor: {r: 1, g: 1, b: 1, a: 1}
+  hoverColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &309468528
 GameObject:
   m_ObjectHideFlags: 0
@@ -741,15 +741,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.13333334, g: 0.77254903, b: 0.36862746, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 3171161342243463218, guid: 2f36027e4b09dde4eb43e7d2e0fd717a, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -778,8 +778,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02a62e42e1c2931469ae91c1d20a9248, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelSelectionScript
-  normalColor: {r: 0.13333334, g: 0.77254903, b: 0.36862746, a: 1}
-  hoverColor: {r: 0.08627451, g: 0.6392157, b: 0.2901961, a: 1}
+  normalColor: {r: 1, g: 1, b: 1, a: 1}
+  hoverColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &688686928
 GameObject:
   m_ObjectHideFlags: 0
@@ -880,7 +880,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 315, y: 24}
+  m_AnchoredPosition: {x: 56, y: -86}
   m_SizeDelta: {x: 160, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &734002834
@@ -1131,15 +1131,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.13333334, g: 0.77254903, b: 0.36862746, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 3171161342243463218, guid: 2f36027e4b09dde4eb43e7d2e0fd717a, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1168,8 +1168,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02a62e42e1c2931469ae91c1d20a9248, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelSelectionScript
-  normalColor: {r: 0.13333334, g: 0.77254903, b: 0.36862746, a: 1}
-  hoverColor: {r: 0.08627451, g: 0.6392157, b: 0.2901961, a: 1}
+  normalColor: {r: 1, g: 1, b: 1, a: 1}
+  hoverColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1187180033
 GameObject:
   m_ObjectHideFlags: 0
@@ -1222,8 +1222,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02a62e42e1c2931469ae91c1d20a9248, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelSelectionScript
-  normalColor: {r: 0.13333334, g: 0.77254903, b: 0.36862746, a: 1}
-  hoverColor: {r: 0.08627451, g: 0.6392157, b: 0.2901961, a: 1}
+  normalColor: {r: 1, g: 1, b: 1, a: 1}
+  hoverColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &1187180036
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1293,15 +1293,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.13333334, g: 0.77254903, b: 0.36862746, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 2365817253837606276, guid: 1bbec783a04f20149957e6eb846f8f74, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1418,7 +1418,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 47, y: 24}
+  m_AnchoredPosition: {x: 56, y: 10}
   m_SizeDelta: {x: 160, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1264298687
@@ -1521,7 +1521,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 315, y: 182}
+  m_AnchoredPosition: {x: -90, y: 149}
   m_SizeDelta: {x: 160, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1384721748
@@ -1587,7 +1587,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.08235294, g: 0.5019608, b: 0.23921569, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -1633,15 +1633,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.13333334, g: 0.77254903, b: 0.36862746, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 3171161342243463218, guid: 2f36027e4b09dde4eb43e7d2e0fd717a, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1670,8 +1670,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02a62e42e1c2931469ae91c1d20a9248, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelSelectionScript
-  normalColor: {r: 0.13333334, g: 0.77254903, b: 0.36862746, a: 1}
-  hoverColor: {r: 0.08627451, g: 0.6392157, b: 0.2901961, a: 1}
+  normalColor: {r: 1, g: 1, b: 1, a: 1}
+  hoverColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1504306738
 GameObject:
   m_ObjectHideFlags: 0
@@ -1772,7 +1772,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -244, y: 24}
+  m_AnchoredPosition: {x: 212, y: 149}
   m_SizeDelta: {x: 160, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1538455977
@@ -1884,15 +1884,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.13333334, g: 0.77254903, b: 0.36862746, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 3171161342243463218, guid: 2f36027e4b09dde4eb43e7d2e0fd717a, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1921,8 +1921,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02a62e42e1c2931469ae91c1d20a9248, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelSelectionScript
-  normalColor: {r: 0.13333334, g: 0.77254903, b: 0.36862746, a: 1}
-  hoverColor: {r: 0.08627451, g: 0.6392157, b: 0.2901961, a: 1}
+  normalColor: {r: 1, g: 1, b: 1, a: 1}
+  hoverColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1548606911
 GameObject:
   m_ObjectHideFlags: 0
@@ -2263,7 +2263,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: -1398148170979988287, guid: b91c0c21a06832c4fa4052b151598fde, type: 3}
   m_Color: {r: 1, g: 0.9725491, b: 0.8627452, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2283,7 +2283,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 54.16252, y: 92, z: 0}
-  m_LocalScale: {x: 1000, y: 500, z: 0.05}
+  m_LocalScale: {x: 150, y: 50, z: 0.05}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2817,7 +2817,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 47, y: 182}
+  m_AnchoredPosition: {x: 212, y: 282}
   m_SizeDelta: {x: 160, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1660057539 &9223372036854775807

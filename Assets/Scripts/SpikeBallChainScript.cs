@@ -9,9 +9,11 @@ public class SpikeBallChainScript : MonoBehaviour
     private int direction =1;
     private float currentAngle=0f;
     public float radius;
+    private Player playerScript;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        playerScript = GameObject.Find("Player").GetComponent<Player>();
         radius=Vector3.Distance(transform.position,centralObject.transform.position);
     }
 
@@ -30,7 +32,12 @@ public class SpikeBallChainScript : MonoBehaviour
             direction=1;
         }
         float rad = currentAngle*Mathf.Deg2Rad;
-        transform.position = centralObject.transform.position + new Vector3(radius*Mathf.Sin(rad),-radius*Mathf.Cos(rad),0);
+        if(!playerScript.isPause && !playerScript.isGameOver)
+        {
+            transform.position = centralObject.transform.position + new Vector3(radius*Mathf.Sin(rad),-radius*Mathf.Cos(rad),0);
+        }
+        // transform.position = centralObject.transform.position + new Vector3(radius*Mathf.Sin(rad),-radius*Mathf.Cos(rad),0);
+
         
     }
 }

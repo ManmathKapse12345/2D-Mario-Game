@@ -2,6 +2,7 @@
 using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
 using UnityEngine.UIElements;
 
 public class Player : MonoBehaviour
@@ -22,10 +23,14 @@ public class Player : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public bool levelCompleted=false;
     public bool isPause=false;
+    public AudioClip jumpSound;
+    public AudioClip gameOverSound;
+    private AudioSource audioSource;
 
     private int currentLevel;
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         isPause=false;
         currentLevel = int.Parse(SceneManager.GetActiveScene().name.Substring(5).Trim());
         animator=GetComponent<Animator>();
@@ -60,6 +65,7 @@ public class Player : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Space) && isGround && !isGameOver && !isPause)
         {
+            PlayJumpSound();
             playerRigidBody2D.AddForce(Vector3.up*force,ForceMode2D.Impulse);
             isGround=false;
         }
@@ -109,8 +115,10 @@ public class Player : MonoBehaviour
             {
                 transform.SetParent(null);
             }
+            FreezePlayer();
+            // PlayGameOverSound();
             Debug.Log("Game Over!");
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            StartCoroutine(ReloadSceneAFterGameOver());
         }
         if (collision.gameObject.CompareTag("Monster"))
         {
@@ -120,6 +128,7 @@ public class Player : MonoBehaviour
 
                 if(Mathf.Abs(normal.x) > Mathf.Abs(normal.y))
                 {
+                    PlayGameOverSound();
                     isGameOver=true;
                 }
             }
@@ -160,6 +169,33 @@ public class Player : MonoBehaviour
         {
             health=health+16;
             Destroy(collision.gameObject);
+        }
+    }
+    void FreezePlayer()
+    {
+        playerRigidBody2D.constraints = RigidbodyConstraints2D.FreezePosition;
+    }
+
+    private IEnumerator ReloadSceneAFterGameOver()
+    {
+        isGameOver=true;
+        PlayGameOverSound();
+        yield return new WaitForSeconds(1f);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+    void PlayJumpSound()
+    {
+        if(audioSource != null && jumpSound != null)
+        {
+            audioSource.PlayOneShot(jumpSound);
+        }
+    }
+
+    void PlayGameOverSound()
+    {
+        if(audioSource != null && gameOverSound != null)
+        {
+            audioSource.PlayOneShot(gameOverSound);
         }
     }
 }

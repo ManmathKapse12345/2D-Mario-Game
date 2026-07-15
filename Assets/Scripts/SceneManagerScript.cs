@@ -16,13 +16,19 @@ public class SceneManagerScript : MonoBehaviour
     public float healthStatusOffsetX;
     public float pauseStatusOffsetX;
     public float pauseStatusOffsetY;
-    private bool isPause;
+    private AudioSource backgroundSound;
+    private AudioSource playerSound;
     public GameObject pauseMenu;
+    public Image myImage;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        myImage.enabled=false;
         playerScript = GameObject.Find("Player").GetComponent<Player>();
-        // isPause = playerScript.isPause;
+        backgroundSound = GameObject.Find("MusicManager").GetComponent<AudioSource>();
+        playerSound = GameObject.Find("Player").GetComponent<AudioSource>();
+        backgroundSound.mute=false;
+        playerSound.mute=false;
         healthValue=playerScript.health;
         healthStatus.text="Health :- "+healthValue;
         healthStatusOffsetY=healthStatus.transform.position.y-mainCamera.transform.position.y;
@@ -63,6 +69,13 @@ public class SceneManagerScript : MonoBehaviour
     public void MakeGameRestart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void MakeSoundMute()
+    {
+        myImage.enabled = !myImage.enabled;
+        backgroundSound.mute = !backgroundSound.mute;
+        playerSound.mute = !playerSound.mute;
     }
 
     public void MakeGameQuit()
